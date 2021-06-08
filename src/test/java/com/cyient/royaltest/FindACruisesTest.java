@@ -14,8 +14,8 @@ public class FindACruisesTest extends ParentTest {
 		
 		
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//img[@class='highlight__content']/..")).click();
-		//driver.findElement(By.xpath("//div[@class='brand__logo-redirection']")).click();
+		//driver.findElement(By.xpath("//img[@class='highlight__content']/..")).click();
+		driver.findElement(By.xpath("//div[@class='brand__logo-redirection']")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//div[@class='headerMainToolbar__menu__icon']")).click();
 		driver.findElement(By.xpath("//span[normalize-space()='Find a Cruise']")).click();
